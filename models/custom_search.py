@@ -44,3 +44,6 @@ class DeepSearch:
             result_str = "\n".join(result_arr)
             return result_str
 
+if __name__ == '__main__':
+    deepsearch = DeepSearch
+    print(deepsearch.search('Elon Musk News'))
