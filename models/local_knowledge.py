@@ -17,6 +17,8 @@ from langchain.chains import ConversationChain
 CHUNK_SIZE = 800
 CHUNK_OVERLAP = 70
 VECTOR_SEARCH_TOP_K = 2
+LOCAL_CONTENT = os.path.join(os.path.dirname(__file__), "../docs")
+VS_PATH = os.path.join(os.path.dirname(__file__), "../vector_store/FAISS")
 PROMPT_TEMPLATE = """Known information:
 {context}
 
