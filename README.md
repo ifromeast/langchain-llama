@@ -2,6 +2,7 @@
 
 本例主要参考 [langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM) 和 [langchain-GLM_Agent](https://github.com/jayli/langchain-GLM_Agent) 。在此基础上，部分模块进行了自定义替换，以搭建一个基于本地知识库、在线检索、本地LLM服务的问答系统，
 
+详细解读参考：https://zhuanlan.zhihu.com/p/636741983
 
 ## 准备工作
 
